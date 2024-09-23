@@ -1,3 +1,6 @@
 from django.test import TestCase
 
-# Create your tests here.
+
+class TestOrm(TestCase):
+    def test_author_factory(self):
+        author = AuthorFactory()

@@ -1,0 +1,18 @@
+[project]
+name = "django-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django-rest-framework>=0.1.0",
+    "django>=5.1.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "freezegun>=1.5.1",
+    "pandas>=2.2.3",
+    "pytest>=8.3.3",
+    "pytest-django>=4.9.0",
+]
